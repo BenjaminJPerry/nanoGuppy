@@ -2,7 +2,6 @@
 
 1. Take the complete output directory from nanopore run and move to `nesi/nobackup/[agresearch#####/project]`.
 
-
 2. guppy v6.0.1 base calling and trimming on NeSI with slurm (see `guppy.6.0.1.template.sl`).  
 `guppy_basecaller \`  
 `-i /nesi/nobackup/agresearch03174/[sequencer ouput run directory] \`  
