@@ -23,9 +23,9 @@ guppy_basecaller \
 --compress_fastq \
 --min_qscore 7 \
 --barcode_kits [barcoding kit eg."EXP-PBC096"] \
+--trim_strategy dna \
 --trim_barcodes \
 --trim_primers \
---trim_strategy dna \
 --detect_mid_strand_adapter \
 --do_read_splitting \
 #--verbose_logs
